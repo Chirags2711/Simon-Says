@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  background-color: #CCCCCC;
+}
+
+#level-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 3rem;
+  margin:  5%;
+  color: #333333;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 5px solid #333333;
+  border-radius: 50%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #FF0000;
+}
+
+.green {
+  background-color: #33CC33;
+}
+
+.blue {
+  background-color: #3366CC;
+}
+
+.yellow {
+  background-color: #FFFF00;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
